@@ -12,7 +12,7 @@
             Console.WriteLine($"Сумма:{a + b}");
             Console.WriteLine($"Разность:{a - b}");
             Console.WriteLine($"Произведение:{a * b}");
-            Console.WriteLine($"Среднее арифмитическое:{(a + b)/2}");
+            Console.WriteLine($"Среднее арифмитическое:{(a + b)}");
         }
     }
 }
