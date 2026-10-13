@@ -5,14 +5,14 @@
         static void Main(string[] args)
         {
             Console.Write("Введите первое число:");
-            int a = int.Parse(Console.ReadLine());
+            double a = double.Parse(Console.ReadLine());
             Console.Write("Введите второе число:");
-            int b = int.Parse(Console.ReadLine());
+            double b = double.Parse(Console.ReadLine());
 
             Console.WriteLine($"Сумма:{a + b}");
             Console.WriteLine($"Разность:{a - b}");
             Console.WriteLine($"Произведение:{a * b}");
-            Console.WriteLine($"Среднее арифмитическое:{(a + b)/2.0}");
+            Console.WriteLine($"Среднее арифмитическое:{(a + b)/2}");
         }
     }
 }
